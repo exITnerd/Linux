@@ -1,0 +1,46 @@
+|------------ PODSTAWOWE, NAJBARDZIEJ PRZYDATNE KOMENDY W LINUXIE ------------|
+
+a) Poruszanie po systemie plików, zarządzanie plikami i folderami:
+
+	ls (List): Wyświetla listę plików i katalogów w bieżącym katalogu.
+	cd (Change Directory): Pozwala na zmianę bieżącego katalogu.
+	pwd (Print Working Directory): Wyświetla ścieżkę do bieżącego katalogu.
+	mkdir (Make Directory): Tworzy nowy katalog.
+	rmdir (Remove Directory): Usuwa pusty katalog.
+	touch: Tworzy nowy, pusty plik lub aktualizuje datę modyfikacji istniejącego pliku.
+	cp (Copy): Kopiuje pliki i katalogi.
+	mv (Move): Przenosi pliki i katalogi lub zmienia ich nazwę.
+	rm (Remove): Usuwa pliki i katalogi.
+	cat (Concatenate): Wyświetla zawartość pliku.
+	more lub less: Pozwala na przewijanie i wyświetlanie zawartości pliku stronami.
+	grep (Global Regular Expression Print): Wyszukuje wzorce tekstowe w plikach.
+	wc (Word Count): Podaje liczbę nowych wierszy, liczbę wyrazów, bajtów lub liczbę znaków w zależności od 	argumentów wywołania.
+	diff: Porównuje dwa pliki linia po linii, a następnie pokazuje różniące się linie.
+	tar (Tape Archive): Tworzy lub wypakowuje archiwa.
+	chmod (Change Mode): Zmienia uprawnienia dostępu do plików i katalogów.
+	chown (Change Owner): Zmienia właściciela plików i katalogów.
+
+b) Komendy diagnostyczne, zarządzanie komputerem i interfejsami:
+
+	uname (Unix Name): Wypisuje podstawowe informacje o systemie operacyjnym.
+	ps (Process Status): Wyświetla listę działających procesów.
+	kill: Zatrzymuje lub wysyła sygnał do procesu.
+	top lub htop: Wyświetla bieżące informacje o zużyciu zasobów przez procesy.
+	df (Disk Free): Wyświetla informacje o dostępnej przestrzeni na dysku.
+	du (Disk Usage): Pokazuje zajętość dysku przez pliki i katalogi.
+	wget (Web Get): Pobiera pliki z Internetu.
+	ping: Testuje dostępność hosta lub sieci.
+	ifconfig (Interface Configuration): Wyświetla informacje o interfejsach sieciowych.
+	iwconfig (Wireless Configuration): Wyświetla informacje o interfejsach bezprzewodowych, takie jak SSID, moc 	sygnału itp.
+	ip addr show (iproute2): Pozwala na bardziej zaawansowane zarządzanie interfejsami sieciowymi.
+	shutdown lub reboot: Wyłącza lub restartuje system.
+	sudo apt-get update: Pozwala na aktualizację systemu, pakietów oraz aplikacji.
+
+c) Zarządzanie użytkownikami:
+	
+	users - Wyświetlenie nazw użytkowników.
+	groups - Wyświetla grupy, do których należy dany użytkownik.
+	useradd - Komenda ta służy do dodawania nowego użytkownika do systemu. *
+	*WAŻNE: Lepiej skonfigurować użytkownika poprzez adduser, bo po kolei zostaniemy poprowadzeni przez procesy 	takie jak np.: dodanie hasła, tworzenie katalogu użytkownika, podanie danych osobowych.
+	usermod - Polecenie służące do modyfikacji kont użytkowników.
+	userdel - Służy do usuwania użytkownika z systemu.
