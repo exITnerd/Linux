@@ -14,7 +14,7 @@ a) Poruszanie po systemie plików, zarządzanie plikami i folderami:
 	cat (Concatenate): Wyświetla zawartość pliku.
 	more lub less: Pozwala na przewijanie i wyświetlanie zawartości pliku stronami.
 	grep (Global Regular Expression Print): Wyszukuje wzorce tekstowe w plikach.
-	wc (Word Count): Podaje liczbę nowych wierszy, liczbę wyrazów, bajtów lub liczbę znaków w zależności od 	argumentów wywołania.
+	wc (Word Count): Podaje liczbę nowych wierszy, liczbę wyrazów, bajtów lub liczbę znaków w zależności od argumentów wywołania.
 	diff: Porównuje dwa pliki linia po linii, a następnie pokazuje różniące się linie.
 	tar (Tape Archive): Tworzy lub wypakowuje archiwa.
 	chmod (Change Mode): Zmienia uprawnienia dostępu do plików i katalogów.
@@ -31,7 +31,7 @@ b) Komendy diagnostyczne, zarządzanie komputerem i interfejsami:
 	wget (Web Get): Pobiera pliki z Internetu.
 	ping: Testuje dostępność hosta lub sieci.
 	ifconfig (Interface Configuration): Wyświetla informacje o interfejsach sieciowych.
-	iwconfig (Wireless Configuration): Wyświetla informacje o interfejsach bezprzewodowych, takie jak SSID, moc 	sygnału itp.
+	iwconfig (Wireless Configuration): Wyświetla informacje o interfejsach bezprzewodowych, takie jak SSID, moc sygnału itp.
 	ip addr show (iproute2): Pozwala na bardziej zaawansowane zarządzanie interfejsami sieciowymi.
 	shutdown lub reboot: Wyłącza lub restartuje system.
 	sudo apt-get update: Pozwala na aktualizację systemu, pakietów oraz aplikacji.
@@ -41,6 +41,6 @@ c) Zarządzanie użytkownikami:
 	users - Wyświetlenie nazw użytkowników.
 	groups - Wyświetla grupy, do których należy dany użytkownik.
 	useradd - Komenda ta służy do dodawania nowego użytkownika do systemu. *
-	*WAŻNE: Lepiej skonfigurować użytkownika poprzez adduser, bo po kolei zostaniemy poprowadzeni przez procesy 	takie jak np.: dodanie hasła, tworzenie katalogu użytkownika, podanie danych osobowych.
+	*WAŻNE: Lepiej skonfigurować użytkownika poprzez adduser, bo po kolei zostaniemy poprowadzeni przez procesy takie jak np.: dodanie hasła, tworzenie katalogu użytkownika, podanie danych osobowych.
 	usermod - Polecenie służące do modyfikacji kont użytkowników.
 	userdel - Służy do usuwania użytkownika z systemu.
