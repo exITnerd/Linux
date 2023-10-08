@@ -1,0 +1,57 @@
+4. Zbadaj zachowanie poleceń pushd i popd:
+	pushd przenosi bieżący katalog na stos i przechodzi do nowego katalogu, podczas gdy popd usuwa katalog ze stosu i przechodzi do poprzedniego katalogu na stosie.
+
+5. Nie zmienia się, po prostu dodawane są kolejne wywołane polecenia.
+
+6. ls:
+	a) jak wypisać nazwy plików/katalogów w jednej kolumnie?	ls -1
+	
+	b) jak posortować listę plików według ich rozmiaru?		ls -S
+
+7. Jak podać informacje o katalogu, a nie o jego zawartości?		ls -d nazwa_katalogu
+
+8. Czy możliwe jest istnienie w pewnym katalogu pliku i folderu o tej samej nazwie?
+	Tak, bo nazwy plików i katalogów są w obrębie danego folderu unikalne.
+
+10. Co wywoła polecenie rm -rf *?
+	Usunie wszystkie pliki i katalogi w bieżącym katalogu
+
+11. Polecenie " rm -rf " umożliwia usunięcie całej tej gałęzi.
+
+12. Zachowania poleceń cp i mv, gdy drugi argument określa:
+	
+	a) jest istniejący plik: 	ten plik zostanie skopiowany lub przeniesiony do podanego w pierwszym argumencie miejsca gdzie znajduje się ten plik
+
+	b) jest istniejący katalog:	ten katalog zostanie skopiowany lub przeniesiony do podanego w pierwszym argumencie katalogu
+
+	c) jest nieistniejący plik/katalog:	zostanie utworzony plik/katalog o tej nazwie, a plik zostanie skopiowany lub przeniesiony do tego nowego katalogu/pliku.
+
+13. Zachowania poleceń cp i mv, gdy trzeci argument:
+	
+	a) jest nazwą istniejącego pliku:	plik zostanie skopiowany lub przeniesiony pod tę nazwę w nowym miejscu.
+
+	b) jest nazwą istniejącego katalogu:	plik zostanie skopiowany lub przeniesiony do tego katalogu.
+
+	c) jest nazwą nieistniejącego pliku/katalogu:	zostanie utworzony plik/katalog o tej nazwie, a plik zostanie skopiowany lub przeniesiony do tego nowego katalogu/pliku.
+
+14. Co wywołuje ls -h?
+	Wyświetla rozmairy plików przy użyciu powszechnie znanych jednostek, tkaich jak KB, MB, GB etc.
+
+15. watch df:
+	df jest używane do wyświetlania informacji o systemie plików, a watch pozwala na ciągłe wykonywanie polecenia i aktualizowanie wyników.
+
+16. Co odróżnia polecenia w, who i finger?
+	Polecenie finger dostarcza znacznie bardziej szczegółowych informacji o użytkowniku w porównaniu do w, who.
+
+17. Zbadaj co zawiera i do jakich celów używany jest plik ~/.bash_history? Co, gdy go usuniemy?
+	Ten plik zawiera historię poleceń wprowadzanych przez użytkownika w powłoce Bash. Usunięcie tego pliku usunie historię poleceń dla tego użytkownika.
+
+18. Co zawiera plik /proc/cpuinfo?
+	Zawiera on informacje o procesorze, takie jak model procesora, liczba rdzeni itp.
+
+19. Jaki efekt opcja -v dodana do poleceń cp, mv i rm?
+	Komenda ta powoduje wyświetlanie bardziej szczegółowych informacji o działaniach tych poleceń, takich jak wyświetlanie nazw przetwarzanych plików i katalogów.
+
+20. cat /proc/kcore:
+	Plik ten jest dostępny tylko dla administratora i zawiera jakies informacje o systemie i/lub błędach?
+
