@@ -62,6 +62,7 @@ find:
 	find -atime +1 - Znajduje pliki, które nie były używane ponad 1 dzień (24 godziny).
 	find -user kowalski - Znajduje pliki, które należą do użytkownika kowalski.
 	find ! -user kowalski -  Znajduje pliki, które należą do użytkowników innych niż kowalski.
+	find -group pracownicy - Znajduje pliki należące do grupy pracownicy.
 	find -size +10M - Znajduje plik/i o rozmiarze większym niż 10 MIB.
 	find -size -1k -a -size +100c - Znajduje pliki, których rozmiar jest mniejszy niż 1 KiB i większy niż 100 B:
 	find -size +10M -a  -user kowalski - Znajduje pliki, których rozmiar jest większy niż 10MiB i ich właścicielem jest kowalski.
