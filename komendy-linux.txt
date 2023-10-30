@@ -79,7 +79,6 @@ Każde z praw dostępu ma przypisany odpowiedni parametr cyfrowy:
 	– – brak praw dostępu   	– 0;
 
 Po dodaniu odpowiednich parametrów zestaw trzech praw można przedstawić za pomocą jednej cyfry. Oto możliwe kombinacje:
-
 	– – –    0    brak praw;
 	– – x    1    prawo do uruchamiania;
 	– w –    2    prawo do zapisu;
