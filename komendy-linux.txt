@@ -55,8 +55,7 @@ grep:
 find:
 	find -name wynik.txt - Znajduje plik o podanej nazwie.
 	find -size +10M - Znajduje plik/i o rozmiarze większym niż 10 MB.
-
-	find ~/ -name "*.txt" - Znajduje w lokacji, w której aktualnie się znajdujemy wszystkie pliki z rozszerzeniem .txt.
+	find -name "*.txt" - Znajduje w lokacji, w której aktualnie się znajdujemy wszystkie pliki z rozszerzeniem .txt.
 head, tail:	
 	head -n 1 wynik.txt - Wypisuje pierwszą linię z pliku wynik.txt.
 	tail -n 1 wynik.txt - Wypisuje ostatnią linię z pliku wynik.txt.
