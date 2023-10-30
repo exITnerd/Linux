@@ -56,9 +56,14 @@ grep:
 find:
 	find -name wynik.txt - Znajduje plik o podanej nazwie.
 	find -iname WyNiK.txt - Znajduje plik o podanej nazwie, jednocześnie ignorując wielkość znaków.
-	find -size +10M - Znajduje plik/i o rozmiarze większym niż 10 MB.
 	find -name "*.txt" - Znajduje w lokacji, w której aktualnie się znajdujemy wszystkie pliki z rozszerzeniem .txt.
 	find -atime +1 - Znajduje pliki, które nie były używane ponad 1 dzień (24 godziny).
+	find -user kowalski - Znajduje pliki, które należą do użytkownika kowalski.
+	find ! -user kowalski -  Znajduje pliki, które należą do użytkowników innych niż kowalski.
+	find -size +10M - Znajduje plik/i o rozmiarze większym niż 10 MIB.
+	find -size -1k -a -size +100c - Znajduje pliki, których rozmiar jest mniejszy niż 1 KiB i większy niż 100 B:
+	find -size +10M -a  -user kowalski - Znajduje pliki, których rozmiar jest większy niż 10MiB i ich właścicielem jest kowalski.
+	find -size +10M -o  -user kowalski - Znajduje pliki, których rozmiar jest większy niż 10MiB lub ich właścicielem jest kowalski.
 head, tail:	
 	head -n 1 wynik.txt - Wypisuje pierwszą linię z pliku wynik.txt.
 	tail -n 1 wynik.txt - Wypisuje ostatnią linię z pliku wynik.txt.
