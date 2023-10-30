@@ -57,6 +57,8 @@ find:
 	find -name wynik.txt - Znajduje plik o podanej nazwie.
 	find -iname WyNiK.txt - Znajduje plik o podanej nazwie, jednocześnie ignorując wielkość znaków.
 	find -name "*.txt" - Znajduje w lokacji, w której aktualnie się znajdujemy wszystkie pliki z rozszerzeniem .txt.
+	find -type f - Znajduje obiekty będące plikami.
+	find -type d - Znajduje obiekty będące folderami.
 	find -atime +1 - Znajduje pliki, które nie były używane ponad 1 dzień (24 godziny).
 	find -user kowalski - Znajduje pliki, które należą do użytkownika kowalski.
 	find ! -user kowalski -  Znajduje pliki, które należą do użytkowników innych niż kowalski.
