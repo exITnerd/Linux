@@ -46,7 +46,14 @@ c) Zarządzanie użytkownikami:
 	userdel - Służy do usuwania użytkownika z systemu.
 
 d) Zapisywanie do pliku | Polecenia grep i find | Polecenia tail i head:
-
+Zapis do pliku:
 	ls -al > wynik.txt - Zapisuje wynik polecenia (np.: ls -al) do pliku wynik.txt, lub nadpisuje istniejący plik o tej nazwie.
 	ls -al >> wynik.txt - Zapisuje wynik polecenia (np.: ls -al) do pliku wynik.txt, lub dopisuje dane na końcu pliku o tej nazwie.
-	grep "Test" wynik.txt
+grep:	
+	grep "Test" wynik.txt - Wyszukuje w zawartości pliku wynik.txt, czy zawiera on frazę "Test".
+	grep "Test" -i wynik.txt - Wyszukuje w zawartości pliku wynik.txt, czy zawiera on frazę "Test". **Nie zwraca jednak uwagi na wielkość znaków!**
+find:
+	find 
+head, tail:	
+	head -n 1 wynik.txt - Wypisuje pierwszą linię z pliku wynik.txt.
+	tail -n 1 wynik.txt - Wypisuje ostatnią linię z pliku wynik.txt.
