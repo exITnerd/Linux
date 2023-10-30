@@ -52,6 +52,7 @@ Zapis do pliku:
 grep:	
 	grep "Test" wynik.txt - Wyszukuje w zawartości pliku wynik.txt, czy zawiera on frazę "Test".
 	grep "Test" -i wynik.txt - Wyszukuje w zawartości pliku wynik.txt, czy zawiera on frazę "Test". **Nie zwraca jednak uwagi na wielkość znaków!**
+	grep -E "Test." wynik.txt - Wyszukuje w zawartości pliku wynik.txt, czy zawiera on frazę "Testa", "Testy" itd. - niezależnie, co jest w miejscu kropki, wypisana zostanie dana linia pliku.
 find:
 	find -name wynik.txt - Znajduje plik o podanej nazwie.
 	find -iname WyNiK.txt - Znajduje plik o podanej nazwie, jednocześnie ignorując wielkość znaków.
