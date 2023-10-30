@@ -66,6 +66,25 @@ find:
 	find -size -1k -a -size +100c - Znajduje pliki, których rozmiar jest mniejszy niż 1 KiB i większy niż 100 B:
 	find -size +10M -a  -user kowalski - Znajduje pliki, których rozmiar jest większy niż 10MiB i ich właścicielem jest kowalski.
 	find -size +10M -o  -user kowalski - Znajduje pliki, których rozmiar jest większy niż 10MiB lub ich właścicielem jest kowalski.
+	find -perm 777 - Znajduje pliki z uprawnieniami do odczytu, zapisu i uruchamiania dla każdej z grup.
 head, tail:	
 	head -n 1 wynik.txt - Wypisuje pierwszą linię z pliku wynik.txt.
 	tail -n 1 wynik.txt - Wypisuje ostatnią linię z pliku wynik.txt.
+
+e) Prawa dostępu:
+Każde z praw dostępu ma przypisany odpowiedni parametr cyfrowy:
+	r – prawo do odczytu  		– 4;
+	w – prawo do zapisu  		– 2;
+	x – prawo do uruchamiania 	– 1;
+	– – brak praw dostępu   	– 0;
+
+Po dodaniu odpowiednich parametrów zestaw trzech praw można przedstawić za pomocą jednej cyfry. Oto możliwe kombinacje:
+
+	– – –    0    brak praw;
+	– – x    1    prawo do uruchamiania;
+	– w –    2    prawo do zapisu;
+	– wx     3    prawo do zapisu i wykonywania;
+	r – –    4    prawo do odczytu;
+	r – x    5    prawo do odczytu i uruchamiania;
+	r w –    6    prawo do odczytu i zapisu;
+	r w x    7    prawo do odczytu, zapisu i uruchamiania;
