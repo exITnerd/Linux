@@ -88,3 +88,20 @@ Po dodaniu odpowiednich parametrów zestaw trzech praw można przedstawić za po
 	r – x    5    prawo do odczytu i uruchamiania;
 	r w –    6    prawo do odczytu i zapisu;
 	r w x    7    prawo do odczytu, zapisu i uruchamiania;
+
+f) Monitorowanie komputera i zasobów:
+ps, pstree:
+	ps - Wyprowadza informacje o procesach zalogowanego użytkownika.
+	ps -e - Wyprowadza informacje o wszystkich procesach działających w systemie.
+	ps -p 2115 - Wyprowadza informacje o procesie z PID wynoszącym 2115.
+	ps -l / ps -f / ps -F - Wyprowadza informacje o procesach z coraz większą liczbą dodatkowych atrybutów.
+	ps - u kowalski - Wyprowadza informacje o procesach uruchomionych przez użytkownika kowalski.
+	pstree - Tworzy drzewo procesów.
+	pstree -a - Prezentuje linię poleceń każdego procesu.
+	pstree -c - Wyłącza domyślne skracanie obrazu drzewa.
+	pstree -l - Wyprowadza długie wiersze nawet wtedy, gdy zaburza obraz drzewa (przydatne przy wyprowadzanie wyników do pliku)
+	pstree -n - Sortuje potomków w kolejności PID, a nie według nazw.
+	pstree -p - Włącza prezentowanie numerów PID.
+top:
+	top - Pokazuje aktualne informacje na temat obciążenia procesora, pamięci i innych zasobów. Procesy są sortowane według użycia CPU.
+	
