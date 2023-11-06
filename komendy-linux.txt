@@ -109,3 +109,5 @@ top, uptime, time:
 	top -c - Prezentuje pełne linie poleceń zamiast nazw poleceń.
 	uptime - Informuje o czasie działania systemu od ostatniego restartu, liczbie użytkowników, średnim obciążeniu sprzętu w ciągu 1, 5 i 15 minut.
 	time - Pozwala oszacować czas wykonania wskazanego programu.
+free:
+	free - Pozwala sprawdzić zajętość pamięci operacyjnej.
