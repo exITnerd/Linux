@@ -102,6 +102,9 @@ ps, pstree:
 	pstree -l - Wyprowadza długie wiersze nawet wtedy, gdy zaburza obraz drzewa (przydatne przy wyprowadzanie wyników do pliku)
 	pstree -n - Sortuje potomków w kolejności PID, a nie według nazw.
 	pstree -p - Włącza prezentowanie numerów PID.
-top:
+top, uptime:
 	top - Pokazuje aktualne informacje na temat obciążenia procesora, pamięci i innych zasobów. Procesy są sortowane według użycia CPU.
-	
+	top -d 1 - Odświeża przedstawiane informacje co 1 sekundę.
+	top -p 1,2,3,10 - Prezentuje tylko informacje o procesach o PID równych 1, 2, 3 i 10.
+	top -c - Prezentuje pełne linie poleceń zamiast nazw poleceń.
+	uptime - Informuje o czasie działania systemu od ostatniego restartu, liczbie użytkowników, średnim obciążeniu sprzętu w ciągu 1, 5 i 15 minut.
